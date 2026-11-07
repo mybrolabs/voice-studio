@@ -71,6 +71,8 @@ ulang dari link resmi.
 
 Total **±8–15 menit**, tergantung kecepatan internet.
 
+Lebih gampang lihat videonya: [Cara install](https://www.youtube.com/watch?v=yyx6Ztqo06c)
+
 ## Update ke versi baru
 
 Update cuma ganti kode app. Model, hasil render, library suara, setting dan kamus lu **tetap aman**, nggak perlu download
@@ -119,6 +121,12 @@ Nama menu bisa beda dikit tergantung versi antivirus. Jangan matiin antivirus to
 - Built with Higgs Materials licensed from Boson AI USA, Inc.
 - **Pakai suara orang lain hanya dengan izin orangnya.** Jangan buat nipu, fitnah, scam atau konten yang menyesatkan.
 - Lisensi lengkap semua model & library: [`NOTICE.txt`](NOTICE.txt).
+
+## Video tutorial
+
+- 📺 Cara install: https://www.youtube.com/watch?v=yyx6Ztqo06c
+- 📺 Demo fitur & cara pakai: https://youtu.be/0Q9tXk08b-E
+- ▶️ Playlist lengkap: https://www.youtube.com/playlist?list=PLFZ7AUSU9gAU
 
 ## Kontak & bantuan
 
