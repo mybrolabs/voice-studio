@@ -1,0 +1,66 @@
+mybrolabs Voice Studio - NOTICE (lisensi pihak ketiga & kredit)
+=================================================================
+
+Zip ini TIDAK berisi bobot model AI apa pun. Semua model didownload dari sumber resminya oleh installer
+(install.bat, opsional) atau otomatis pas fiturnya pertama dipakai, ke folder models\ di PC lu.
+Lisensi tiap model tetap berlaku buat model itu dan, kalau disebut di bawah, buat hasil (output) yang dibikin pakai model itu.
+
+
+MODEL AI
+--------
+
+1. OmniVoice (TTS Bahasa Indonesia + 600 bahasa, tab Voice Clone TTS & Dialog)
+   Sumber   : https://huggingface.co/k2-fsa/OmniVoice  |  kode: https://github.com/k2-fsa/OmniVoice
+   Kode     : Apache License 2.0
+   Bobot    : CC-BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0)
+              https://creativecommons.org/licenses/by-nc/4.0/
+              -> NON-KOMERSIAL. Hasil OmniVoice jangan dipakai buat job klien / iklan / konten yang dimonetisasi.
+              Jalur komersial: rekam suara sendiri -> tab Voice Conversion (Chatterbox, MIT).
+
+2. Higgs Audio v2 tokenizer (folder audio_tokenizer\ di dalam repo OmniVoice, dipakai OmniVoice)
+   Lisensi  : Boson Higgs Audio 2 Community License (berbasis Meta Llama 3 Community License).
+              Salinan lengkap ikut ke-download: models\hub\models--k2-fsa--OmniVoice\snapshots\*\audio_tokenizer\LICENSE
+              Wajib dipatuhi juga: Llama 3 Acceptable Use Policy - https://llama.meta.com/llama3/use-policy
+   Atribusi : Built with Higgs Materials licensed from Boson AI USA, Inc., Copyright Boson AI USA, Inc., All Rights
+              Reserved and Meta Llama 3 licensed under the Meta Llama 3 Community License, Copyright Meta Platforms, Inc.,
+              All Rights Reserved.
+              "Meta Llama 3 is licensed under the Meta Llama 3 Community License, Copyright (c) Meta Platforms, Inc.
+              All Rights Reserved."
+              "Boson Higgs Audio 2 is licensed under the Boson Community License, Copyright (c) Boson AI USA, Inc.
+              All Rights Reserved."
+
+3. Chatterbox TTS + Chatterbox VC + VoiceEncoder (Voice Conversion, TTS English, kemiripan suara di Multi-take)
+   Sumber   : https://huggingface.co/ResembleAI/chatterbox  |  kode: https://github.com/resemble-ai/chatterbox
+   Lisensi  : MIT (kode & bobot), Copyright (c) Resemble AI
+   Catatan  : hasil Chatterbox diberi watermark tak terdengar (Resemble Perth, MIT) oleh library-nya.
+
+4. Whisper large-v3-turbo, versi faster-whisper / CTranslate2 (transkrip referensi, cek hasil Multi-take)
+   Sumber   : https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo
+              (konversi dari https://huggingface.co/openai/whisper-large-v3-turbo)
+   Lisensi  : MIT, Copyright (c) OpenAI. Library faster-whisper: MIT (SYSTRAN).
+
+5. MelBand Roformer "vocals" by Kimberley Jensen (pisah vokal: Bersihin referensi, VC + musik latar)
+   File     : vocals_mel_band_roformer.ckpt (913.106.900 byte,
+              SHA256 87201f4d31afb5bc79993230fc49446918425574db48c01c405e44f365c7559e)
+   Sumber   : https://huggingface.co/KimberleyJSN/melbandroformer (file asli, MIT)
+              didownload dari mirror audio-separator:
+              https://github.com/nomadkaraoke/python-audio-separator/releases/download/model-configs/
+              (SHA256 dicek sama persis dengan file asli di HuggingFace)
+   Lisensi  : MIT. Arsitektur MelBand Roformer: lucidrains/BS-RoFormer (MIT).
+              Library audio-separator: MIT (Andrew Beveridge / nomadkaraoke).
+
+
+LIBRARY UTAMA (dipasang installer dari PyPI / download.pytorch.org)
+-------------------------------------------------------------------
+PyTorch, torchaudio, torchvision (BSD-3-Clause) | Transformers, Accelerate, huggingface_hub, safetensors (Apache-2.0)
+Gradio (Apache-2.0) | omnivoice (Apache-2.0) | chatterbox-tts (MIT) | faster-whisper (MIT) | CTranslate2 (MIT)
+audio-separator (MIT) | PyAV (BSD-3-Clause) | soundfile (BSD-3-Clause) | librosa (ISC) | NumPy (BSD-3-Clause)
+pandas (BSD-3-Clause) | num2words (LGPL-2.1) | pyloudnorm (MIT) | soxr (LGPL-2.1+) | uv (MIT / Apache-2.0)
+Python 3.11 (PSF License). Versi lengkap: constraints.txt. Teks lisensi tiap library ada di
+.venv\Lib\site-packages\<nama>-<versi>.dist-info\ setelah install.
+
+
+ETIKA
+-----
+Pakai suara orang lain hanya dengan izin orangnya. Jangan dipakai buat penipuan, fitnah, impersonasi atau konten yang
+menyesatkan. Tanggung jawab pemakaian hasil ada di pemakai.

@@ -1,0 +1,13 @@
+mybrolabs Voice Studio
+Copyright (c) 2026 mybrolabs (IG @realtoonai). All rights reserved.
+
+Kode app ini (app.py, cli.py, core\, file .bat, docs, extras) boleh dipakai GRATIS buat keperluan pribadi maupun kerja.
+TANPA izin tertulis dari mybrolabs, app ini dilarang dijual, dibagikan ulang (re-upload / mirror), atau dikemas ulang
+sebagai produk lain. Bagikan link resminya aja.
+
+Model AI dan library pihak ketiga punya lisensi sendiri (lihat NOTICE.txt), termasuk:
+- OmniVoice: bobot CC-BY-NC 4.0 = hasil TTS/Dialog OmniVoice NON-KOMERSIAL.
+- Chatterbox: MIT = Voice Conversion boleh komersial.
+
+App disediakan "APA ADANYA" (AS IS), tanpa jaminan apa pun. mybrolabs nggak bertanggung jawab atas kerugian atau
+penyalahgunaan hasil app ini. Pakai suara orang lain hanya dengan izin orangnya.
